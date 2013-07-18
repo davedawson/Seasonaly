@@ -1,0 +1,266 @@
+[
+  {
+    "title": "Apples",
+    "type": "fruit",
+    "image": "apple.jpg",
+    "description": "Pick up the apple, and feel for any soft areas and look for any discoloration. When apples are past ripeness, they become brown (oxidization) and soft or mushy.",
+    "locations": {
+        "nyc": {
+          "months": [7,8,9,10]
+        }
+    },
+    "source": "http://localfoods.about.com/od/searchbyregion/a/nyseasons.htm"
+  },
+  {
+    "title": "Arugula",
+    "type": "vegetable",
+    "image": "apricot.jpg",
+    "description": "lipsum",
+    "locations": {
+        "nyc": {
+          "months": [5,6,7,8,9]
+        }
+    },
+    "source": "http://localfoods.about.com/od/searchbyregion/a/nyseasons.htm"
+  },
+  {
+    "title": "Asparagus",
+    "type": "vegetable",
+    "image": "apricot.jpg",
+    "description": "lipsum",
+    "locations": {
+        "nyc": {
+          "months": [5,6]
+        }
+    },
+    "source": "http://localfoods.about.com/od/searchbyregion/a/nyseasons.htm"
+  },
+  {
+    "title": "Basil",
+    "type": "vegetable",
+    "image": "apricot.jpg",
+    "description": "lipsum",
+    "locations": {
+        "nyc": {
+          "months": [7,8,9]
+        }
+    },
+    "source": "http://localfoods.about.com/od/searchbyregion/a/nyseasons.htm"
+  },
+  {
+    "title": "Beets",
+    "type": "vegetable",
+    "image": "apricot.jpg",
+    "description": "lipsum",
+    "locations": {
+        "nyc": {
+          "months": [6,7,8,9,10,11,12]
+        }
+    },
+    "source": "http://localfoods.about.com/od/searchbyregion/a/nyseasons.htm"
+  },
+  {
+    "title": "Blueberries",
+    "type": "fruit",
+    "image": "apricot.jpg",
+    "description": "lipsum",
+    "locations": {
+        "nyc": {
+          "months": [7,8]
+        }
+    },
+    "source": "http://localfoods.about.com/od/searchbyregion/a/nyseasons.htm"
+  },
+  {
+    "title": "Broccoli",
+    "type": "vegetable",
+    "image": "apricot.jpg",
+    "description": "lipsum",
+    "locations": {
+        "nyc": {
+          "months": [8,9,10,11]
+        }
+    },
+    "source": "http://localfoods.about.com/od/searchbyregion/a/nyseasons.htm"
+  },
+  {
+    "title": "Broccoli Raab",
+    "type": "vegetable",
+    "image": "apricot.jpg",
+    "description": "lipsum",
+    "locations": {
+        "nyc": {
+          "months": [5,6,7,8,9]
+        }
+    },
+    "source": "http://localfoods.about.com/od/searchbyregion/a/nyseasons.htm"
+  },
+  {
+    "title": "Brussels sprouts",
+    "type": "vegetable",
+    "image": "apricot.jpg",
+    "description": "lipsum",
+    "locations": {
+        "nyc": {
+          "months": [9,10,11]
+        }
+    },
+    "source": "http://localfoods.about.com/od/searchbyregion/a/nyseasons.htm"
+  },
+  {
+    "title": "Cabbage",
+    "type": "vegetable",
+    "image": "apricot.jpg",
+    "description": "lipsum",
+    "locations": {
+        "nyc": {
+          "months": [6,7,8,9,10]
+        }
+    },
+    "source": "http://localfoods.about.com/od/searchbyregion/a/nyseasons.htm"
+  },
+  {
+    "title": "Cantaloupes",
+    "type": "vegetable",
+    "image": "apricot.jpg",
+    "description": "lipsum",
+    "locations": {
+        "nyc": {
+          "months": [8,9]
+        }
+    },
+    "source": "http://localfoods.about.com/od/searchbyregion/a/nyseasons.htm"
+  },
+    {
+    "title": "Cabbage",
+    "type": "vegetable",
+    "image": "apricot.jpg",
+    "description": "lipsum",
+    "locations": {
+        "nyc": {
+          "months": [6,7,8,9,10]
+        }
+    },
+    "source": "http://localfoods.about.com/od/searchbyregion/a/nyseasons.htm"
+  },
+    {
+    "title": "Cabbage",
+    "type": "vegetable",
+    "image": "apricot.jpg",
+    "description": "lipsum",
+    "locations": {
+        "nyc": {
+          "months": [6,7,8,9,10]
+        }
+    },
+    "source": "http://localfoods.about.com/od/searchbyregion/a/nyseasons.htm"
+  },
+    {
+    "title": "Cabbage",
+    "type": "vegetable",
+    "image": "apricot.jpg",
+    "description": "lipsum",
+    "locations": {
+        "nyc": {
+          "months": [6,7,8,9,10]
+        }
+    },
+    "source": "http://localfoods.about.com/od/searchbyregion/a/nyseasons.htm"
+  },
+    {
+    "title": "Cabbage",
+    "type": "vegetable",
+    "image": "apricot.jpg",
+    "description": "lipsum",
+    "locations": {
+        "nyc": {
+          "months": [6,7,8,9,10]
+        }
+    },
+    "source": "http://localfoods.about.com/od/searchbyregion/a/nyseasons.htm"
+  },
+    {
+    "title": "Cabbage",
+    "type": "vegetable",
+    "image": "apricot.jpg",
+    "description": "lipsum",
+    "locations": {
+        "nyc": {
+          "months": [6,7,8,9,10]
+        }
+    },
+    "source": "http://localfoods.about.com/od/searchbyregion/a/nyseasons.htm"
+  },
+    {
+    "title": "Cabbage",
+    "type": "vegetable",
+    "image": "apricot.jpg",
+    "description": "lipsum",
+    "locations": {
+        "nyc": {
+          "months": [6,7,8,9,10]
+        }
+    },
+    "source": "http://localfoods.about.com/od/searchbyregion/a/nyseasons.htm"
+  },
+    {
+    "title": "Cabbage",
+    "type": "vegetable",
+    "image": "apricot.jpg",
+    "description": "lipsum",
+    "locations": {
+        "nyc": {
+          "months": [6,7,8,9,10]
+        }
+    },
+    "source": "http://localfoods.about.com/od/searchbyregion/a/nyseasons.htm"
+  },
+    {
+    "title": "Cabbage",
+    "type": "vegetable",
+    "image": "apricot.jpg",
+    "description": "lipsum",
+    "locations": {
+        "nyc": {
+          "months": [6,7,8,9,10]
+        }
+    },
+    "source": "http://localfoods.about.com/od/searchbyregion/a/nyseasons.htm"
+  },
+    {
+    "title": "Cabbage",
+    "type": "vegetable",
+    "image": "apricot.jpg",
+    "description": "lipsum",
+    "locations": {
+        "nyc": {
+          "months": [6,7,8,9,10]
+        }
+    },
+    "source": "http://localfoods.about.com/od/searchbyregion/a/nyseasons.htm"
+  },
+    {
+    "title": "Cabbage",
+    "type": "vegetable",
+    "image": "apricot.jpg",
+    "description": "lipsum",
+    "locations": {
+        "nyc": {
+          "months": [6,7,8,9,10]
+        }
+    },
+    "source": "http://localfoods.about.com/od/searchbyregion/a/nyseasons.htm"
+  },
+    {
+    "title": "Cabbage",
+    "type": "vegetable",
+    "image": "apricot.jpg",
+    "description": "lipsum",
+    "locations": {
+        "nyc": {
+          "months": [6,7,8,9,10]
+        }
+    },
+    "source": "http://localfoods.about.com/od/searchbyregion/a/nyseasons.htm"
+  }
+]

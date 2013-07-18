@@ -1,0 +1,17 @@
+$columnWidth: 84px;
+$columns: 12;
+$contentWidth: $columnWidth * $columns;
+$bodyFontSize: 16px;
+
+// colors
+$color-pink: #ff5757;
+$color-green: #4da756;
+$color-white: #fff;
+$color-black: #000;
+
+
+@mixin border-radius($radius) {
+  -webkit-border-radius: $radius;
+     -moz-border-radius: $radius;
+          border-radius: $radius;
+}

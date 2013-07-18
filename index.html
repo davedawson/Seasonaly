@@ -1,0 +1,63 @@
+
+<!DOCTYPE HTML>
+
+<html>
+  <head>
+    <title>Seasonal</title>
+    <link href="favicon.ico" rel="icon" type="image/x-icon" />
+    <link rel="stylesheet" type="text/css" href="//cloud.typography.com/7750432/683202/css/fonts.css" />
+    <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" />
+    <link href="/stylesheets/print.css" media="print" rel="stylesheet" type="text/css" />
+    <!--[if IE]>
+        <link href="/stylesheets/ie.css" media="screen, projection" rel="stylesheet" type="text/css" />
+    <![endif]-->
+    <!-- <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script> -->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="/js/mustache.js"></script>
+    <script src="/js/jquery-mustache.js"></script>
+    <script src="/js/handlebars.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="For us who can't spell and don't know much about seasonal fruits or veggies.">
+  </head>
+
+  <body>
+    <section class="header">
+      <h1><a href="/">Seasonaly</a></h1>
+      <a href="#" class="explain"><span>What is this</span>&darr;</a>
+      <div class="explanation">
+        <p>Seasonaly is a tiny website for people that can't spell and don't know that much about fruits & veggies. This page lists the fruits and vegetables that are in season today. <a href="/purpose">Read why &rarr;</a></p>
+      </div>
+      <div class="today">
+        <p><em></em>, <strong></strong>, in <span>New York City</span></p>
+      </div>
+    </section>
+    <section class="base">
+
+      <ul id="food-list">
+      </ul>
+    </section>
+
+    <script id="food-data" type="text/template">
+      {{#.}}
+        <li>
+          <a href="#" class="{{type}}">
+            <h2>{{title}}</h2>
+            <div class="more-info">
+              <p><strong>Check ripeness: </strong>{{description}}</p>
+            </div>
+          </a>
+        </li>
+      {{/.}}
+    </script>
+    <script>
+    $.getJSON('/json/fv.json', function(data) {
+      // var template = "{{#.}}<h1>{{title}} {{type}}</h1><p> {{description}}</p>{{/.}}";
+      var template = $('#food-data').html();
+      var html = Mustache.to_html(template, data);
+      var template = Handlebars.compile(html);
+      $('#food-list').append(html);
+    });
+    </script>
+    <script src="/js/index.js"></script>
+  </body>
+</html>

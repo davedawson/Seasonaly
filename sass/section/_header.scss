@@ -1,0 +1,60 @@
+.header {
+	padding: 5px 0 0;
+	background: darken($color-pink, 30%);
+	border-bottom: darken($color-pink, 30%);
+  a {
+    color: $color-white;
+    text-decoration: none;
+  }
+  p a {
+    text-decoration: underline;
+  }
+  h1 {
+    font-size: 14px;
+    letter-spacing: 0.33em;
+    text-transform: uppercase;
+    text-align: center;
+  }
+  .explain {
+    position: absolute;
+    right: 5%;
+    top: 8px;
+    width: 20px;
+    height: 20px;
+    padding: 4px;
+    font-size: 15px;
+    font-weight: 400;
+    text-align: center;
+    background: transparentize($color-white, 0.7);
+    display: block;
+    @include border-radius(22px);
+    span {
+      display: none;
+    }
+  }
+  .explanation {
+    text-align: center;
+    margin: 20px 5%;
+    p {
+      margin: 0;
+    }
+  }
+}
+.today {
+	text-align: center;
+	font-size: 28px;
+	padding: 10px 0;
+	font-weight: 600;
+  background: darken($color-pink, 40%);
+	p {
+		margin: 0;
+    font-size: 14px;
+    color: transparentize($color-white, 0.2);
+    font-weight: 400;
+	}
+	em, strong {
+		display: inline;
+		font-weight: normal;
+		font-style: normal;
+	}
+}

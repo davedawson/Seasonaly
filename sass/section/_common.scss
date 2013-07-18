@@ -1,0 +1,36 @@
+body {
+	background-color: $color-pink;
+	color: $color-white;
+	font-family: 'Whitney A', 'Whitney B';
+}
+
+#food-list {
+	padding: 0;
+	li {
+		list-style-type: none;
+		a {
+      color: $color-white;
+      text-decoration: none;
+      padding: 20px 5%;
+      width: 100%;
+      display: block;
+      border-top: 2px solid transparentize($color-white, 0.2);
+      font-weight: 600;
+      box-sizing: border-box;
+      &.vegetable {
+        background-color: $color-green;
+      }
+      &.fruit {
+        background-color: $color-pink;
+      }
+    }
+		.more-info {
+      margin-top: 10px;
+			p {
+				font-weight: 400;
+				font-size: 16px;
+				margin: 0;
+			}
+		}
+	}
+}
