@@ -38,24 +38,12 @@ $(window).load(function(){
       getTodaysDay();
     },
 
-    moreInfo: function(){
-      console.log('test')
-      $('#food-list .more-info').hide();
-      $("#food-list li a").on('click', function(e) {
-        console.log('test')
-        $('#food-list .more-info').slideUp('fast');
-        $(this).find('.more-info').slideToggle('fast');
-        e.preventDefault();
-        return false;
-      });
-    },
-
     explain: function(){
       $('.explanation').hide();
       $(".explain").on('click', function(e) {
         $('.explanation').slideToggle('fast');
       });
-    }
+    },
   };
 
   /*-------------------------------------------
@@ -64,6 +52,17 @@ $(window).load(function(){
 
   // seasonaly.pullFood();
   seasonaly.whatDay();
-  seasonaly.moreInfo();
+  // seasonaly.moreInfo();
   seasonaly.explain();
 });
+
+function moreInfo() {
+  $('#food-list .more-info').hide();
+  $("#food-list li a").on('click', function(e) {
+    console.log('test')
+    $('#food-list .more-info').slideUp('fast');
+    $(this).find('.more-info').slideToggle('fast');
+    e.preventDefault();
+    return false;
+  });
+}
