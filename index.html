@@ -13,6 +13,7 @@
     <!-- <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script> -->
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
     <script src="/js/markup.min.js"></script>
+    <script src="/js/extras.js"></script>
     <script src="/js/mustache.js"></script>
     <script src="/js/jquery-mustache.js"></script>
     <script src="/js/handlebars.js"></script>
@@ -40,57 +41,30 @@
     <script id="food-data" type="text/template">
       {{foods}}
         <li>
+          {{if friends|has>gender>F}}
           <a href="#" class="{{type}}">
-            <h2>{{title}}</h2>
+            <h2>{{title|headline}}</h2>
             <div class="more-info">
               <p><strong>Check ripeness: </strong>{{description}}</p>
             </div>
           </a>
+          {{/if}}
         </li>
       {{/foods}}
     </script>
 
     <script>
     var json = null
-    $.getJSON('/json/test2.json', function(data) {
+    $.getJSON('/json/fv.json', function(data) {
+      currentMonth = 7;
       json = data;
       console.log( 'json loaded' );
       console.log(json);
       var template = $('#food-data').html();
-      // var template = document.getElementById("food-data").firstChild.textContent;
-//    var template = "<p>{{foods}}{{title}}{{locations.nyc.months}}{{/foods}}</p>";
       var result = Mark.up(template, json); // "Hi, John!"
       $('#food-list').append(result);
-
+      moreInfo();
     });
-    var context = {
-      foods: [
-        {
-      "title": "Apples",
-      "type": "fruit",
-      "image": "apple.jpg",
-      "description": "Pick up the apple, and feel for any soft areas and look for any discoloration. When apples are past ripeness, they become brown (oxidization) and soft or mushy.",
-      "locations": {
-          "nyc": {
-            "months": [7,8,9,10]
-          }
-      },
-      "source": "http://localfoods.about.com/od/searchbyregion/a/nyseasons.htm"
-    },
-{
-      "title": "Arugula",
-      "type": "vegetable",
-      "image": "apricot.jpg",
-      "description": "lipsum",
-      "locations": {
-          "nyc": {
-            "months": [5,6,7,8,9]
-          }
-      },
-      "source": "http://localfoods.about.com/od/searchbyregion/a/nyseasons.htm"
-    }
-        ]
-  };
 
     </script>
     <!--
