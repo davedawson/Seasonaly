@@ -12,8 +12,6 @@
     <![endif]-->
     <!-- <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script> -->
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-    <script src="/js/markup.min.js"></script>
-    <script src="/js/extras.js"></script>
     <script src="/js/mustache.js"></script>
     <script src="/js/jquery-mustache.js"></script>
     <script src="/js/handlebars.js"></script>
@@ -38,46 +36,36 @@
       </ul>
     </section>
 
-    <script id="food-data" type="text/template">
-      {{foods}}
+    <script id="food-data" type="text/x-handlebars-template">
+      {{#foods}}
         <li>
-          {{if friends|has>gender>F}}
           <a href="#" class="{{type}}">
-            <h2>{{title|headline}}</h2>
+            <h2>{{title}}</h2>
             <div class="more-info">
               <p><strong>Check ripeness: </strong>{{description}}</p>
             </div>
           </a>
-          {{/if}}
         </li>
       {{/foods}}
     </script>
-
     <script>
     var json = null
     $.getJSON('/json/fv.json', function(data) {
+      console.log( 'json loaded' );
+      // Put JSON into variable
       json = data;
-      console.log( 'json loaded' );
-      console.log(json);
-      var template = $('#food-data').html();
-      var result = Mark.up(template, json); // "Hi, John!"
-      $('#food-list').append(result);
-      moreInfo();
-    });
 
-    </script>
-    <!--
-    <script>
-    $.getJSON('/json/fv.json', function(data) {
-      console.log( 'json loaded' );
+      // Create variable based on the handlebars template above
+      var source = $('#food-data').html();
 
-      var template = $('#food-data').html();
-      var html = Mustache.to_html(template, data);
-      $('#food-list').append(html);
+      // compile the template
+      var template = Handlebars.compile(source);
+
+      // Send that to the page
+      $('#food-list').html(template(json));
       moreInfo();
     });
     </script>
-  -->
     <script src="/js/index.js"></script>
   </body>
 </html>
