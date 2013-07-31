@@ -66,3 +66,7 @@ function moreInfo() {
     return false;
   });
 }
+
+function hideRotten() {
+
+}

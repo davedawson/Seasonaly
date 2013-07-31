@@ -38,51 +38,33 @@
 
     <script id="food-data" type="text/x-handlebars-template">
       {{#foods}}
-        {{#ifCond locations.nyc.months 5}}
-
-          <li>
-            <a href="#" class="{{type}}">
-              <h2>{{title}}</h2>
-              <div class="more-info">
-                <p><strong>Check ripeness: </strong>{{description}}</p>
-              </div>
-            </a>
-          </li>
-
-        {{/ifCond}}
+        <li>
+        {{#ifequal type "fruit"}}
+          <a href="#" class="{{type}}">
+            <h2>{{title}}</h2>
+            <div class="more-info">
+              <p><strong>Check ripeness: </strong>{{description}}</p>
+            </div>
+          </a>
+        {{/ifequal}}
+        </li>
       {{/foods}}
     </script>
     <script>
-    var json = null
+    $("document").ready(function() {
+    $.getJSON("/json/fv.json", function(data) {
 
-    $.getJSON('/json/fv.json', function(data) {
-    Handlebars.registerHelper('ifCond', function(v1, v2, options) {
-      if($.inArray(v2, v1) != -1)
-        {
-          return options.fn(this);
-          console.log( 'in array' );
-        }
-//      if($.inArray(v2, v1)) {
+        $("#food-list").text("<table>");
 
+        $.each(data, function(i, item) {
+            $("#food-list").append("<tr><td>" + foods.image +"</td><td>" + foods.source + "</td></tr>");
+        });
 
-//       }
-    return options.inverse(this);
+        $("#food-list").append("</table>");
+
     });
-      console.log( 'json loaded' );
-      // Put JSON into variable
-      json = data;
+});
 
-      // Create variable based on the handlebars template above
-      var source = $('#food-data').html();
-
-      // compile the template
-      var template = Handlebars.compile(source);
-
-      // Send that to the page
-      $('#food-list').html(template(json));
-      moreInfo();
-    });
-    </script>
-    <script src="/js/index.js"></script>
+</script>
   </body>
 </html>
