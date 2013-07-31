@@ -2,7 +2,7 @@
 
 <html>
   <head>
-    <title>Seasonal</title>
+    <title>What's in Season</title>
     <link href="favicon.ico" rel="icon" type="image/x-icon" />
     <link rel="stylesheet" type="text/css" href="//cloud.typography.com/7750432/683202/css/fonts.css" />
     <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" />
@@ -21,13 +21,13 @@
 
   <body>
     <section class="header">
-      <h1><a href="/">Seasonaly</a></h1>
+      <h1><a href="/">What's in Season</a></h1>
       <a href="#" class="explain"><span>What is this</span>&darr;</a>
       <div class="explanation">
-        <p>Seasonaly is a tiny website for people that can't spell and don't know that much about fruits &amp; veggies. This page lists the fruits and vegetables that are in season today. <a href="/purpose">Read why &rarr;</a></p>
+        <p>What's in Seasons Today is a tiny website for people that don't know that much about fruits &amp; veggies. This page simply lists the fruits and vegetables that are in season today. <a href="/purpose">Read why &rarr;</a></p>
       </div>
       <div class="today">
-        <p><em></em>, <strong></strong>, in <span>New York City</span></p>
+        <p><b>Summer:</b> <em></em>, <strong></strong>, in <span>the Northeast</span></p>
       </div>
     </section>
     <section class="base">
@@ -35,16 +35,17 @@
       <ul id="food-list">
       </ul>
     </section>
-
+    <script>
+    </script>
     <script id="food-data" type="text/x-handlebars-template">
       {{#foods}}
-        {{#ifCond locations.nyc.months 5}}
-
+        {{#ifCond locations.nyc.months 7}}
           <li>
             <a href="#" class="{{type}}">
               <h2>{{title}}</h2>
               <div class="more-info">
                 <p><strong>Check ripeness: </strong>{{description}}</p>
+                <p><strong>Source: </strong> {{source}}</p>
               </div>
             </a>
           </li>
@@ -56,18 +57,13 @@
     var json = null
 
     $.getJSON('/json/fv.json', function(data) {
-    Handlebars.registerHelper('ifCond', function(v1, v2, options) {
-      if($.inArray(v2, v1) != -1)
-        {
-          return options.fn(this);
-          console.log( 'in array' );
-        }
-//      if($.inArray(v2, v1)) {
-
-
-//       }
-    return options.inverse(this);
-    });
+      Handlebars.registerHelper('ifCond', function(v1, v2, options) {
+        if($.inArray(v2, v1) != -1)
+          {
+            return options.fn(this);
+          }
+      return options.inverse(this);
+      });
       console.log( 'json loaded' );
       // Put JSON into variable
       json = data;

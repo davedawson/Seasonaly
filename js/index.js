@@ -59,7 +59,6 @@ $(window).load(function(){
 function moreInfo() {
   $('#food-list .more-info').hide();
   $("#food-list li a").on('click', function(e) {
-    console.log('test')
     $('#food-list .more-info').slideUp('fast');
     $(this).find('.more-info').slideToggle('fast');
     e.preventDefault();

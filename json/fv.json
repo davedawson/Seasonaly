@@ -13,37 +13,25 @@
     "source": "http://localfoods.about.com/od/searchbyregion/a/nyseasons.htm"
   },
   {
-    "title": "Arugula",
-    "type": "vegetable",
-    "image": "apricot.jpg",
-    "description": "lipsum",
-    "locations": {
-        "nyc": {
-          "months": [5,6]
-        }
-    },
-    "source": "http://localfoods.about.com/od/searchbyregion/a/nyseasons.htm"
-  },
-  {
     "title": "Asparagus",
     "type": "vegetable",
     "image": "apricot.jpg",
-    "description": "lipsum",
+    "description": "Select bright green asparagus with closed, compact, firm tips. A rich green color should cover most of the spear. Stalks should be almost as far down as the green extends. Try to buy stalks that are equally thick so they cook evenly. If the tips are slightly wilted, freshen them up by soaking them in cold water. Avoid tips that are open and spread out, moldy or decayed tips, or ribbed spears (spears with up-and-down ridges or that are not approximately round). Those are all signs of aging, and indicate tough asparagus and poor flavor.",
     "locations": {
         "nyc": {
-          "months": [5,6]
+          "months": [4]
         }
     },
-    "source": "http://localfoods.about.com/od/searchbyregion/a/nyseasons.htm"
+    "source": "http://whatscookingamerica.net/Vegetables/VegetableBuyingGuide.htm"
   },
   {
     "title": "Basil",
     "type": "vegetable",
     "image": "apricot.jpg",
-    "description": "lipsum",
+    "description": " ",
     "locations": {
         "nyc": {
-          "months": [7,8,9]
+          "months": []
         }
     },
     "source": "http://localfoods.about.com/od/searchbyregion/a/nyseasons.htm"
@@ -52,10 +40,22 @@
     "title": "Beets",
     "type": "vegetable",
     "image": "apricot.jpg",
-    "description": "lipsum",
+    "description": "Many beets are sold in bunches with the tops still attached, while others are sold with the tops removed. Look for beets that are firm, round, with a slender tap root (the large main root), a rich, color, and smooth over most of the surface. If beets are bunched, you can judge their freshness fairly accurately by the condition of the tops. Badly wilted or decayed tops indicate a lack of freshness, but the roots may be satisfactory if they are firm.",
     "locations": {
         "nyc": {
           "months": [6,7,8,9,10,11,12]
+        }
+    },
+    "source": "http://whatscookingamerica.net/Vegetables/VegetableBuyingGuide.htm"
+  },
+  {
+    "title": "Blackberries",
+    "type": "fruit",
+    "image": "apple.jpg",
+    "description": " ",
+    "locations": {
+        "nyc": {
+          "months": [6]
         }
     },
     "source": "http://localfoods.about.com/od/searchbyregion/a/nyseasons.htm"
@@ -64,10 +64,10 @@
     "title": "Blueberries",
     "type": "fruit",
     "image": "apricot.jpg",
-    "description": "lipsum",
+    "description": " ",
     "locations": {
         "nyc": {
-          "months": [6,7,8]
+          "months": [7,8]
         }
     },
     "source": "http://localfoods.about.com/od/searchbyregion/a/nyseasons.htm"
@@ -76,22 +76,22 @@
     "title": "Broccoli",
     "type": "vegetable",
     "image": "apricot.jpg",
-    "description": "lipsum",
+    "description": "When purchasing broccoli, select ones where the stalks are tight and firm.  Look at the stalk and make sure it's not tough. The buds should be tightly closed and the leaves are crisp and very green. The little 'trees' or florets should be dark green. Also note that if the broccoli tends to have a very strong smell or if the leaves have a slightly yellow color, it can often suggest that it is old. Try and avoid broccoli where the buds are yellow in color.",
     "locations": {
         "nyc": {
-          "months": [8,9,10,11]
+          "months": [6,7,8,9]
         }
     },
-    "source": "http://localfoods.about.com/od/searchbyregion/a/nyseasons.htm"
+    "source": "http://whatscookingamerica.net/Vegetables/VegetableBuyingGuide.htm"
   },
   {
     "title": "Broccoli Raab",
     "type": "vegetable",
     "image": "apricot.jpg",
-    "description": "lipsum",
+    "description": " ",
     "locations": {
         "nyc": {
-          "months": [5,6,7,8,9]
+          "months": []
         }
     },
     "source": "http://localfoods.about.com/od/searchbyregion/a/nyseasons.htm"
@@ -100,169 +100,409 @@
     "title": "Brussels sprouts",
     "type": "vegetable",
     "image": "apricot.jpg",
-    "description": "lipsum",
+    "description": "Look for a fresh, bright-green color, tight fitting outer leaves, firm body, and freedom from blemishes. Avoid elongated beets with round, scaly areas around the top surface -- these will be tough, fibrous, and strong-flavored. Also avoid wilted, flabby beets -- they have been exposed to the air too long.",
     "locations": {
         "nyc": {
           "months": [9,10,11]
         }
     },
-    "source": "http://localfoods.about.com/od/searchbyregion/a/nyseasons.htm"
+    "source": "http://whatscookingamerica.net/Vegetables/VegetableBuyingGuide.htm"
   },
   {
     "title": "Cabbage",
     "type": "vegetable",
     "image": "apricot.jpg",
-    "description": "lipsum",
+    "description": "Cabbage leaves should be firm. When selecting, choose only the heads that are compact and firm. They should have fresh, crispy leaves that do not contain any markings or browning, which may be an indication of worm damage. The head should only contain a few loose outer leaves.",
     "locations": {
         "nyc": {
-          "months": [6,7,8,9,10]
+          "months": [5,6,7,8,9]
         }
     },
-    "source": "http://localfoods.about.com/od/searchbyregion/a/nyseasons.htm"
+    "source": "http://whatscookingamerica.net/Vegetables/VegetableBuyingGuide.htm"
+  },
+  {
+    "title": "Carrots",
+    "type": "vegetable",
+    "image": "apricot.jpg",
+    "description": "When purchasing carrots, look for firm, plump carrots without rootlets. They should be small, bright orange and smooth, without cracks. Buy carrots in bunches, with their leafy green tops still attached. Carrots lose moisture through their leafy green tops, so if you purchase them this way, remove the tops before wrapping carrots in plastic and storing.",
+    "locations": {
+        "nyc": {
+          "months": []
+        }
+    },
+    "source": "http://whatscookingamerica.net/Vegetables/VegetableBuyingGuide.htm"
   },
   {
     "title": "Cantaloupes",
     "type": "vegetable",
     "image": "apricot.jpg",
-    "description": "lipsum",
+    "description": " ",
     "locations": {
         "nyc": {
-          "months": [8,9]
+          "months": []
         }
     },
     "source": "http://localfoods.about.com/od/searchbyregion/a/nyseasons.htm"
   },
     {
-    "title": "Cabbage",
+    "title": "Cauliflower",
     "type": "vegetable",
     "image": "apricot.jpg",
-    "description": "lipsum",
+    "description": "When purchasing cauliflower, look for a clean, creamy white, compact curd in which the bud clusters are not separated. Spotted or dull-colored cauliflower should be avoided, as well as those in which small flowers appear. Heads that are surrounded by many thick green leaves are better protected and will be fresher. As its size is not related to its quality, choose one that best suits your needs.",
     "locations": {
         "nyc": {
-          "months": [6,7,8,9,10]
+          "months": [9,10]
+        }
+    },
+    "source": "http://localfoods.about.com/od/searchbyregion/a/nyseasons.htm"
+  },
+  {
+    "title": "Celery",
+    "type": "vegetable",
+    "image": "apple.jpg",
+    "description": "Select celery that is light green in color, firm, compact, and well-shaped. The stalk should have a solid, rigid feel and leaflets should be fresh or only slightly wilted. Also look for a glossy surface, stalks of light green or medium green, and mostly green leaflets. Avoid purchasing celery with bruises or discolored areas on the stalks.",
+    "locations": {
+        "nyc": {
+          "months": [5]
+        }
+    },
+    "source": "http://whatscookingamerica.net/Vegetables/VegetableBuyingGuide.htm"
+  },
+  {
+    "title": "Cherries",
+    "type": "fruit",
+    "image": "apple.jpg",
+    "description": " ",
+    "locations": {
+        "nyc": {
+          "months": [5]
+        }
+    },
+    "source": "http://localfoods.about.com/od/searchbyregion/a/nyseasons.htm"
+  },
+  {
+    "title": "Corn",
+    "type": "vegetable",
+    "image": "apricot.jpg",
+    "description": "Fully ripe sweet corn has bright green, moist husks. The silk should be stiff, dark and moist. You should be able to feel individual kernels by pressing gently against the husk. Fresh corn, if possible, should be cooked and served the day it is picked or purchased.",
+    "locations": {
+        "nyc": {
+          "months": []
+        }
+    },
+    "source": "http://whatscookingamerica.net/Vegetables/VegetableBuyingGuide.htm"
+  },
+  {
+    "title": "Collards",
+    "type": "vegetable",
+    "image": "apricot.jpg",
+    "description": " ",
+    "locations": {
+        "nyc": {
+          "months": [7,8,9]
         }
     },
     "source": "http://localfoods.about.com/od/searchbyregion/a/nyseasons.htm"
   },
     {
-    "title": "Cabbage",
+    "title": "Cucumbers",
     "type": "vegetable",
     "image": "apricot.jpg",
-    "description": "lipsum",
+    "description": " ",
     "locations": {
         "nyc": {
-          "months": [6,7,8,9,10]
+          "months": [6,7]
         }
     },
     "source": "http://localfoods.about.com/od/searchbyregion/a/nyseasons.htm"
   },
     {
-    "title": "Cabbage",
+    "title": "Eggplant",
     "type": "vegetable",
     "image": "apricot.jpg",
-    "description": "lipsum",
+    "description": "Smaller, immature eggplants are best. Full-size puffy ones may have hard seeds and can be bitter. Choose a firm, smooth-skinned eggplant that is heavy for its size; avoid those with soft or brown spots. Gently push with your thumb or forefinger. If the flesh gives slightly but then bounces back, it is ripe. If the indentation remains, it is overripe and the insides will be mushy. If there is no give, the eggplant was picked too early. Also make sure an eggplant isn't dry inside, knock on it with your knuckles. If you hear a hollow sound, don't buy it.",
     "locations": {
         "nyc": {
-          "months": [6,7,8,9,10]
+          "months": [6,7,8]
+        }
+    },
+    "source": "http://whatscookingamerica.net/Vegetables/VegetableBuyingGuide.htm"
+  },
+  {
+    "title": "Grapes",
+    "type": "fruit",
+    "image": "apple.jpg",
+    "description": " ",
+    "locations": {
+        "nyc": {
+          "months": [8]
+        }
+    },
+    "source": "http://localfoods.about.com/od/searchbyregion/a/nyseasons.htm"
+  },
+  {
+    "title": "Kale",
+    "type": "vegetable",
+    "image": "apricot.jpg",
+    "description": " ",
+    "locations": {
+        "nyc": {
+          "months": []
+        }
+    },
+    "source": "http://localfoods.about.com/od/searchbyregion/a/nyseasons.htm"
+  },
+  {
+    "title": "Lima Beans",
+    "type": "vegetable",
+    "image": "apricot.jpg",
+    "description": " ",
+    "locations": {
+        "nyc": {
+          "months": [6,7]
+        }
+    },
+    "source": "http://localfoods.about.com/od/searchbyregion/a/nyseasons.htm"
+  },
+  {
+    "title": "Mushrooms",
+    "type": "vegetable",
+    "image": "apricot.jpg",
+    "description": "Fresh mushrooms have a firm texture. They are delicate, highly perishable, and must be handled with care; they are sensitive to hot temperatures and rough shipping. Many varieties of fresh mushrooms are seasonal. Watch out for mushrooms that are moldy or soft. You are looking for them to be clean and firm. Avoid overripe mushrooms (shown by wide-open caps and dark, discolored gills underneath) and those with pitted or seriously discolored caps.",
+    "locations": {
+        "nyc": {
+          "months": []
+        }
+    },
+    "source": "http://whatscookingamerica.net/Vegetables/VegetableBuyingGuide.htm"
+  },
+  {
+    "title": "Nectarines",
+    "type": "fruit",
+    "image": "apple.jpg",
+    "description": "",
+    "locations": {
+        "nyc": {
+          "months": [6,7,8]
+        }
+    },
+    "source": "http://localfoods.about.com/od/searchbyregion/a/nyseasons.htm"
+  },
+  {
+    "title": "Okra",
+    "type": "vegetable",
+    "image": "apricot.jpg",
+    "description": " ",
+    "locations": {
+        "nyc": {
+          "months": [7,8]
         }
     },
     "source": "http://localfoods.about.com/od/searchbyregion/a/nyseasons.htm"
   },
     {
-    "title": "Cabbage",
+    "title": "Onions",
     "type": "vegetable",
     "image": "apricot.jpg",
-    "description": "lipsum",
+    "description": "When buying onions, choose those that are heavy for their size with dry, papery skins, and that show no signs of spotting or moistness. Avoid onions that are soft or sprouting. Young onions are sweeter than old ones. They should have absolutely NO SMELL whatever. If they do, they are probably bruised somewhere under the skin and are on their way out.",
     "locations": {
         "nyc": {
-          "months": [6,7,8,9,10]
+          "months": [5,6]
+        }
+    },
+    "source": "http://whatscookingamerica.net/Vegetables/VegetableBuyingGuide.htm"
+  },
+  {
+    "title": "Peaches",
+    "type": "fruit",
+    "image": "apple.jpg",
+    "description": "",
+    "locations": {
+        "nyc": {
+          "months": [6,7,8]
+        }
+    },
+    "source": "http://localfoods.about.com/od/searchbyregion/a/nyseasons.htm"
+  },
+  {
+    "title": "Pears",
+    "type": "fruit",
+    "image": "apple.jpg",
+    "description": "",
+    "locations": {
+        "nyc": {
+          "months": [7]
         }
     },
     "source": "http://localfoods.about.com/od/searchbyregion/a/nyseasons.htm"
   },
     {
-    "title": "Cabbage",
+    "title": "Peas",
     "type": "vegetable",
     "image": "apricot.jpg",
-    "description": "lipsum",
+    "description": " ",
     "locations": {
         "nyc": {
-          "months": [6,7,8,9,10]
+          "months": [5]
         }
     },
     "source": "http://localfoods.about.com/od/searchbyregion/a/nyseasons.htm"
   },
     {
-    "title": "Cabbage",
+    "title": "Peppers",
     "type": "vegetable",
     "image": "apricot.jpg",
-    "description": "lipsum",
+    "description": "The skin should be smooth, with no bruises or marks on the surface. Sweet green bell-shaped peppers are the most popular garden variety. Left to ripen, they turn red, purple, orange or yellow and gain various levels of sweetness depending on the variety.",
     "locations": {
         "nyc": {
-          "months": [6,7,8,9,10]
+          "months": [6,7,8,9]
+        }
+    },
+    "source": "http://whatscookingamerica.net/Vegetables/VegetableBuyingGuide.htm"
+  },
+  {
+    "title": "Potatoes",
+    "type": "vegetable",
+    "image": "apricot.jpg",
+    "description": "Potatoes should be smooth, well shaped, and unbruised. When selecting potatoes, choose new potatoes for boiling and salads. They have thinner skins and are firmer. With new potatoes, look for firm potatoes that are free from blemishes and sunburn (a green discoloration under the skin). Some amount of skinned surface is normal, but potatoes with large skinned and discolored areas are undesirable. For general-purpose and baking potatoes, look for reasonably smooth, firm potatoes free from blemishes, sunburn, and decay.",
+    "locations": {
+        "nyc": {
+          "months": [6,7,8]
+        }
+    },
+    "source": "http://whatscookingamerica.net/Vegetables/VegetableBuyingGuide.htm"
+  },
+    {
+    "title": "Pumpkins",
+    "type": "vegetable",
+    "image": "apricot.jpg",
+    "description": " ",
+    "locations": {
+        "nyc": {
+          "months": [9]
         }
     },
     "source": "http://localfoods.about.com/od/searchbyregion/a/nyseasons.htm"
   },
-    {
-    "title": "Cabbage",
-    "type": "vegetable",
-    "image": "apricot.jpg",
-    "description": "lipsum",
+  {
+    "title": "Raspberries",
+    "type": "fruit",
+    "image": "apple.jpg",
+    "description": "",
     "locations": {
         "nyc": {
-          "months": [6,7,8,9,10]
+          "months": [6]
         }
     },
     "source": "http://localfoods.about.com/od/searchbyregion/a/nyseasons.htm"
   },
-    {
-    "title": "Cabbage",
-    "type": "vegetable",
-    "image": "apricot.jpg",
-    "description": "lipsum",
+  {
+    "title": "Raspberries (Fall and everbearing)",
+    "type": "fruit",
+    "image": "apple.jpg",
+    "description": "",
     "locations": {
         "nyc": {
-          "months": [6,7,8,9,10]
+          "months": [7,8]
         }
     },
     "source": "http://localfoods.about.com/od/searchbyregion/a/nyseasons.htm"
   },
-    {
-    "title": "Cabbage",
+  {
+    "title": "Rhubarb",
     "type": "vegetable",
     "image": "apricot.jpg",
-    "description": "lipsum",
+    "description": " ",
     "locations": {
         "nyc": {
-          "months": [6,7,8,9,10]
+          "months": [5,6]
         }
     },
     "source": "http://localfoods.about.com/od/searchbyregion/a/nyseasons.htm"
   },
-    {
-    "title": "Cabbage",
+  {
+    "title": "Snap Beans",
     "type": "vegetable",
     "image": "apricot.jpg",
-    "description": "lipsum",
+    "description": " ",
     "locations": {
         "nyc": {
-          "months": [6,7,8,9,10]
+          "months": [5,6]
         }
     },
     "source": "http://localfoods.about.com/od/searchbyregion/a/nyseasons.htm"
   },
-    {
-    "title": "Cabbage",
+  {
+    "title": "Squash",
     "type": "vegetable",
     "image": "apricot.jpg",
-    "description": "lipsum",
+    "description": "Look for squash that are tender and well developed, firm, and fresh-appearing. You can identify a tender squash, because the skin is glossy instead of dull, and it is neither hard nor tough. Avoid stale or over mature squash, which will have a dull appearance and a hard, tough surface. Such squash usually have enlarged seeds and dry, stringy flesh. Also avoid squash with discolored or pitted areas.",
     "locations": {
         "nyc": {
-          "months": [6,7,8,9,10]
+          "months": [5,6,7,8]
         }
     },
     "source": "http://localfoods.about.com/od/searchbyregion/a/nyseasons.htm"
+  },
+  {
+    "title": "Spinach",
+    "type": "vegetable",
+    "image": "apricot.jpg",
+    "description": "Choose leaves that are crisp and have dark green with a nice fresh fragrance. Avoid those that are limp, damaged, or spotted.",
+    "locations": {
+        "nyc": {
+          "months": [4,5]
+        }
+    },
+    "source": "http://localfoods.about.com/od/searchbyregion/a/nyseasons.htm"
+  },
+  {
+    "title": "Strawberries",
+    "type": "fruit",
+    "image": "apple.jpg",
+    "description": "",
+    "locations": {
+        "nyc": {
+          "months": [5]
+        }
+    },
+    "source": "http://localfoods.about.com/od/searchbyregion/a/nyseasons.htm"
+  },
+  {
+    "title": "Sweet Potatoes",
+    "type": "vegetable",
+    "image": "apricot.jpg",
+    "description": "Look for firm sweet potatoes with smooth, bright, uniformly colored skins, free from signs of decay. Because they are more perishable than white potatoes, extra care should be used in selecting sweet potatoes. Avoid sweet potatoes with worm holes, cuts, grub injury, or any other defects which penetrate the skin; this causes waste and can readily lead to decay. Even if you cut away the decayed portion, the remainder of the potato flesh may have a bad taste.",
+    "locations": {
+        "nyc": {
+          "months": []
+        }
+    },
+    "source": "http://whatscookingamerica.net/Vegetables/VegetableBuyingGuide.htm"
+  },
+  {
+    "title": "Sweet Corn",
+    "type": "vegetable",
+    "image": "apricot.jpg",
+    "description": " ",
+    "locations": {
+        "nyc": {
+          "months": [7,8]
+        }
+    },
+    "source": "http://localfoods.about.com/od/searchbyregion/a/nyseasons.htm"
+  },
+  {
+    "title": "Tomatoes",
+    "type": "vegetable",
+    "image": "apricot.jpg",
+    "description": "Fragrance is a better indicator of a good tomato than color. Use your nose and smell the stem end. The stem should retain the garden aroma of the plant itself - if it doesn't, your tomato will lack flavor and, as far as I'm concerned, will be good only for decoration!",
+    "locations": {
+        "nyc": {
+          "months": [5,6,7,8]
+        }
+    },
+    "source": "http://whatscookingamerica.net/Vegetables/VegetableBuyingGuide.htm"
   }
 ]
 }
