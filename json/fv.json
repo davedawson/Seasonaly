@@ -28,13 +28,13 @@
     "title": "Basil",
     "type": "vegetable",
     "image": "apricot.jpg",
-    "description": " ",
+     "description": "",
     "locations": {
         "nyc": {
           "months": []
         }
     },
-    "source": "http://localfoods.about.com/od/searchbyregion/a/nyseasons.htm"
+    "source": ""
   },
   {
     "title": "Beets",
@@ -52,25 +52,25 @@
     "title": "Blackberries",
     "type": "fruit",
     "image": "apple.jpg",
-    "description": " ",
+     "description": "",
     "locations": {
         "nyc": {
           "months": [6]
         }
     },
-    "source": "http://localfoods.about.com/od/searchbyregion/a/nyseasons.htm"
+    "source": ""
   },
   {
     "title": "Blueberries",
     "type": "fruit",
     "image": "apricot.jpg",
-    "description": " ",
+     "description": "",
     "locations": {
         "nyc": {
           "months": [7,8]
         }
     },
-    "source": "http://localfoods.about.com/od/searchbyregion/a/nyseasons.htm"
+    "source": ""
   },
   {
     "title": "Broccoli",
@@ -88,13 +88,13 @@
     "title": "Broccoli Raab",
     "type": "vegetable",
     "image": "apricot.jpg",
-    "description": " ",
+     "description": "",
     "locations": {
         "nyc": {
           "months": []
         }
     },
-    "source": "http://localfoods.about.com/od/searchbyregion/a/nyseasons.htm"
+    "source": ""
   },
   {
     "title": "Brussels sprouts",
@@ -136,13 +136,13 @@
     "title": "Cantaloupes",
     "type": "vegetable",
     "image": "apricot.jpg",
-    "description": " ",
+     "description": "",
     "locations": {
         "nyc": {
           "months": []
         }
     },
-    "source": "http://localfoods.about.com/od/searchbyregion/a/nyseasons.htm"
+    "source": ""
   },
     {
     "title": "Cauliflower",
@@ -172,13 +172,13 @@
     "title": "Cherries",
     "type": "fruit",
     "image": "apple.jpg",
-    "description": " ",
+     "description": "",
     "locations": {
         "nyc": {
           "months": [5]
         }
     },
-    "source": "http://localfoods.about.com/od/searchbyregion/a/nyseasons.htm"
+    "source": ""
   },
   {
     "title": "Corn",
@@ -196,19 +196,19 @@
     "title": "Collards",
     "type": "vegetable",
     "image": "apricot.jpg",
-    "description": " ",
+     "description": "",
     "locations": {
         "nyc": {
           "months": [7,8,9]
         }
     },
-    "source": "http://localfoods.about.com/od/searchbyregion/a/nyseasons.htm"
+    "source": ""
   },
     {
     "title": "Cucumbers",
     "type": "vegetable",
     "image": "apricot.jpg",
-    "description": " ",
+     "description": "",
     "locations": {
         "nyc": {
           "months": [6,7]
@@ -232,31 +232,31 @@
     "title": "Grapes",
     "type": "fruit",
     "image": "apple.jpg",
-    "description": " ",
+     "description": "",
     "locations": {
         "nyc": {
           "months": [8]
         }
     },
-    "source": "http://localfoods.about.com/od/searchbyregion/a/nyseasons.htm"
+    "source": ""
   },
   {
     "title": "Kale",
     "type": "vegetable",
     "image": "apricot.jpg",
-    "description": " ",
+     "description": "",
     "locations": {
         "nyc": {
           "months": []
         }
     },
-    "source": "http://localfoods.about.com/od/searchbyregion/a/nyseasons.htm"
+    "source": ""
   },
   {
     "title": "Lima Beans",
     "type": "vegetable",
     "image": "apricot.jpg",
-    "description": " ",
+     "description": "",
     "locations": {
         "nyc": {
           "months": [6,7]
@@ -286,19 +286,19 @@
           "months": [6,7,8]
         }
     },
-    "source": "http://localfoods.about.com/od/searchbyregion/a/nyseasons.htm"
+    "source": ""
   },
   {
     "title": "Okra",
     "type": "vegetable",
     "image": "apricot.jpg",
-    "description": " ",
+     "description": "",
     "locations": {
         "nyc": {
           "months": [7,8]
         }
     },
-    "source": "http://localfoods.about.com/od/searchbyregion/a/nyseasons.htm"
+    "source": ""
   },
     {
     "title": "Onions",
@@ -322,7 +322,7 @@
           "months": [6,7,8]
         }
     },
-    "source": "http://localfoods.about.com/od/searchbyregion/a/nyseasons.htm"
+    "source": ""
   },
   {
     "title": "Pears",
@@ -334,19 +334,19 @@
           "months": [7]
         }
     },
-    "source": "http://localfoods.about.com/od/searchbyregion/a/nyseasons.htm"
+    "source": ""
   },
     {
     "title": "Peas",
     "type": "vegetable",
     "image": "apricot.jpg",
-    "description": " ",
+     "description": "",
     "locations": {
         "nyc": {
           "months": [5]
         }
     },
-    "source": "http://localfoods.about.com/od/searchbyregion/a/nyseasons.htm"
+    "source": ""
   },
     {
     "title": "Peppers",
@@ -376,13 +376,13 @@
     "title": "Pumpkins",
     "type": "vegetable",
     "image": "apricot.jpg",
-    "description": " ",
+     "description": "",
     "locations": {
         "nyc": {
           "months": [9]
         }
     },
-    "source": "http://localfoods.about.com/od/searchbyregion/a/nyseasons.htm"
+    "source": ""
   },
   {
     "title": "Raspberries",
@@ -394,7 +394,7 @@
           "months": [6]
         }
     },
-    "source": "http://localfoods.about.com/od/searchbyregion/a/nyseasons.htm"
+    "source": ""
   },
   {
     "title": "Raspberries (Fall and everbearing)",
@@ -406,31 +406,31 @@
           "months": [7,8]
         }
     },
-    "source": "http://localfoods.about.com/od/searchbyregion/a/nyseasons.htm"
+    "source": ""
   },
   {
     "title": "Rhubarb",
     "type": "vegetable",
     "image": "apricot.jpg",
-    "description": " ",
+     "description": "",
     "locations": {
         "nyc": {
           "months": [5,6]
         }
     },
-    "source": "http://localfoods.about.com/od/searchbyregion/a/nyseasons.htm"
+    "source": ""
   },
   {
     "title": "Snap Beans",
     "type": "vegetable",
     "image": "apricot.jpg",
-    "description": " ",
+     "description": "",
     "locations": {
         "nyc": {
           "months": [5,6]
         }
     },
-    "source": "http://localfoods.about.com/od/searchbyregion/a/nyseasons.htm"
+    "source": ""
   },
   {
     "title": "Squash",
@@ -466,7 +466,7 @@
           "months": [5]
         }
     },
-    "source": "http://localfoods.about.com/od/searchbyregion/a/nyseasons.htm"
+    "source": ""
   },
   {
     "title": "Sweet Potatoes",
@@ -484,13 +484,13 @@
     "title": "Sweet Corn",
     "type": "vegetable",
     "image": "apricot.jpg",
-    "description": " ",
+     "description": "",
     "locations": {
         "nyc": {
           "months": [7,8]
         }
     },
-    "source": "http://localfoods.about.com/od/searchbyregion/a/nyseasons.htm"
+    "source": ""
   },
   {
     "title": "Tomatoes",

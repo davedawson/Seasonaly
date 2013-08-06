@@ -1,35 +1,37 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+      <title>What's in Season</title>
+      <meta name="description" content="">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="description" content="For us who can't spell and don't know much about seasonal fruits or veggies.">
 
-<html>
-  <head>
-    <title>Seasonal</title>
-    <link href="favicon.ico" rel="icon" type="image/x-icon" />
-    <link rel="stylesheet" type="text/css" href="//cloud.typography.com/7750432/683202/css/fonts.css" />
-    <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" />
-    <link href="/stylesheets/print.css" media="print" rel="stylesheet" type="text/css" />
-    <!--[if IE]>
-        <link href="/stylesheets/ie.css" media="screen, projection" rel="stylesheet" type="text/css" />
-    <![endif]-->
-    <!-- <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script> -->
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-    <script src="/js/markup.min.js"></script>
-    <script src="/js/extras.js"></script>
-    <script src="/js/mustache.js"></script>
-    <script src="/js/jquery-mustache.js"></script>
-    <script src="/js/handlebars.js"></script>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="For us who can't spell and don't know much about seasonal fruits or veggies.">
-  </head>
+      <link rel="stylesheet" type="text/css" href="//cloud.typography.com/7750432/683202/css/fonts.css" />
+      <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" />
+      <link href="/stylesheets/print.css" media="print" rel="stylesheet" type="text/css" />
 
-  <body>
+      <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+      <!--[if lt IE 9]>
+        <script src="js/html5-3.6-respond-1.1.0.min.js"></script>
+      <![endif]-->
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
     <section class="header">
-      <h1><a href="/">Seasonaly</a></h1>
+      <h1><a href="/">What's in Season</a></h1>
       <a href="#" class="explain"><span>What is this</span>&darr;</a>
       <div class="explanation">
-        <p>Seasonaly is a tiny website for people that can't spell and don't know that much about fruits &amp; veggies. This page lists the fruits and vegetables that are in season today. <a href="/purpose">Read why &rarr;</a></p>
+        <p>What's in Seasons Today is a tiny website for people that don't know that much about fruits &amp; veggies. This page simply lists the fruits and vegetables that are in season today. <a href="/purpose">Read why &rarr;</a></p>
       </div>
       <div class="today">
-        <p><em></em>, <strong></strong>, in <span>New York City</span></p>
+        <p><b>Summer:</b> <em></em>, <strong></strong>, in <span>the Northeast</span></p>
       </div>
     </section>
     <section class="base">
@@ -37,47 +39,50 @@
       <ul id="food-list">
       </ul>
     </section>
+    <script>
+    </script>
+    <script id="food-data" type="text/x-handlebars-template">
+      {{#foods}}
+        {{#ifCond locations.nyc.months 7}}
+          <li>
+            <a href="#" class="{{type}}">
+              <h2>{{title}}</h2>
+              <div class="more-info">
+                {{#if description}}<p><strong>Check ripeness: </strong>{{description}}</p> {{/if}}
+                {{#if source}}<p><strong>Source: </strong> {{source}}</p>{{/if}}
+              </div>
+            </a>
+          </li>
 
-    <script id="food-data" type="text/template">
-      {{foods}}
-        <li>
-          {{if friends|has>gender>F}}
-          <a href="#" class="{{type}}">
-            <h2>{{title|headline}}</h2>
-            <div class="more-info">
-              <p><strong>Check ripeness: </strong>{{description}}</p>
-            </div>
-          </a>
-          {{/if}}
-        </li>
+        {{/ifCond}}
       {{/foods}}
     </script>
-
     <script>
     var json = null
+
     $.getJSON('/json/fv.json', function(data) {
+      Handlebars.registerHelper('ifCond', function(v1, v2, options) {
+        if($.inArray(v2, v1) != -1)
+          {
+            return options.fn(this);
+          }
+      return options.inverse(this);
+      });
+      console.log( 'json loaded' );
+      // Put JSON into variable
       json = data;
-      console.log( 'json loaded' );
-      console.log(json);
-      var template = $('#food-data').html();
-      var result = Mark.up(template, json); // "Hi, John!"
-      $('#food-list').append(result);
-      moreInfo();
-    });
 
-    </script>
-    <!--
-    <script>
-    $.getJSON('/json/fv.json', function(data) {
-      console.log( 'json loaded' );
+      // Create variable based on the handlebars template above
+      var source = $('#food-data').html();
 
-      var template = $('#food-data').html();
-      var html = Mustache.to_html(template, data);
-      $('#food-list').append(html);
+      // compile the template
+      var template = Handlebars.compile(source);
+
+      // Send that to the page
+      $('#food-list').html(template(json));
       moreInfo();
     });
     </script>
-  -->
     <script src="/js/index.js"></script>
   </body>
 </html>

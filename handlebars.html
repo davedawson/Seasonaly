@@ -44,8 +44,8 @@
             <a href="#" class="{{type}}">
               <h2>{{title}}</h2>
               <div class="more-info">
-                <p><strong>Check ripeness: </strong>{{description}}</p>
-                <p><strong>Source: </strong> {{source}}</p>
+                {{#if description}}<p><strong>Check ripeness: </strong>{{description}}</p> {{/if}}
+                {{#if source}}<p><strong>Source: </strong> {{source}}</p>{{/if}}
               </div>
             </a>
           </li>
