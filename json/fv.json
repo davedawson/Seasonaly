@@ -10,7 +10,9 @@
           "months": [5,6]
         }
     },
-    "source": "http://localfoods.about.com/od/searchbyregion/a/nyseasons.htm"
+    "source": "http://localfoods.about.com/od/searchbyregion/a/nyseasons.htm",
+    "icon": "icon-apples",
+    "iconSource": "<a href='http://thenounproject.com/noun/apple/#icon-No640' target='_blank'>Apple</a>  from The Noun Project"
   },
   {
     "title": "Asparagus",
@@ -22,7 +24,8 @@
           "months": [4]
         }
     },
-    "source": "http://whatscookingamerica.net/Vegetables/VegetableBuyingGuide.htm"
+    "source": "http://whatscookingamerica.net/Vegetables/VegetableBuyingGuide.htm",
+    "icon": "icon-asparagus"
   },
   {
     "title": "Basil",
@@ -34,7 +37,8 @@
           "months": []
         }
     },
-    "source": ""
+    "source": "",
+    "icon": "icon-basil"
   },
   {
     "title": "Beets",
@@ -46,7 +50,9 @@
           "months": [6,7,8,9,10,11,12]
         }
     },
-    "source": "http://whatscookingamerica.net/Vegetables/VegetableBuyingGuide.htm"
+    "source": "http://whatscookingamerica.net/Vegetables/VegetableBuyingGuide.htm",
+    "icon": "icon-beets",
+    "iconSource": "Beet designed by Catherine Please from The Noun Project"
   },
   {
     "title": "Blackberries",
@@ -58,19 +64,21 @@
           "months": [6]
         }
     },
-    "source": ""
+    "source": "",
+    "icon": "icon-blackberries"
   },
   {
     "title": "Blueberries",
     "type": "fruit",
     "image": "apricot.jpg",
-     "description": "",
+     "description": "Blueberries are at their peak stage of ripeness a two or three days after turning blue.",
     "locations": {
         "nyc": {
           "months": [7,8]
         }
     },
-    "source": ""
+    "source": "http://www.wilmotblueberries.com/when-are-blueberries-ripe",
+    "icon": ""
   },
   {
     "title": "Broccoli",
@@ -82,7 +90,8 @@
           "months": [6,7,8,9]
         }
     },
-    "source": "http://whatscookingamerica.net/Vegetables/VegetableBuyingGuide.htm"
+    "source": "http://whatscookingamerica.net/Vegetables/VegetableBuyingGuide.htm",
+    "icon": "icon-broccoli"
   },
   {
     "title": "Broccoli Raab",
@@ -94,7 +103,8 @@
           "months": []
         }
     },
-    "source": ""
+    "source": "",
+    "icon": "icon-broccoli-raab"
   },
   {
     "title": "Brussels sprouts",
@@ -106,7 +116,8 @@
           "months": [9,10,11]
         }
     },
-    "source": "http://whatscookingamerica.net/Vegetables/VegetableBuyingGuide.htm"
+    "source": "http://whatscookingamerica.net/Vegetables/VegetableBuyingGuide.htm",
+    "icon": "icon-brussels-sprouts"
   },
   {
     "title": "Cabbage",
@@ -118,7 +129,8 @@
           "months": [5,6,7,8,9]
         }
     },
-    "source": "http://whatscookingamerica.net/Vegetables/VegetableBuyingGuide.htm"
+    "source": "http://whatscookingamerica.net/Vegetables/VegetableBuyingGuide.htm",
+    "icon": "icon-cabbage"
   },
   {
     "title": "Carrots",
@@ -130,7 +142,8 @@
           "months": []
         }
     },
-    "source": "http://whatscookingamerica.net/Vegetables/VegetableBuyingGuide.htm"
+    "source": "http://whatscookingamerica.net/Vegetables/VegetableBuyingGuide.htm",
+    "icon": "icon-carrots"
   },
   {
     "title": "Cantaloupes",
@@ -142,7 +155,8 @@
           "months": []
         }
     },
-    "source": ""
+    "source": "",
+    "icon": ""
   },
     {
     "title": "Cauliflower",
@@ -154,7 +168,8 @@
           "months": [9,10]
         }
     },
-    "source": "http://localfoods.about.com/od/searchbyregion/a/nyseasons.htm"
+    "source": "http://localfoods.about.com/od/searchbyregion/a/nyseasons.htm",
+    "icon": ""
   },
   {
     "title": "Celery",
@@ -166,7 +181,8 @@
           "months": [5]
         }
     },
-    "source": "http://whatscookingamerica.net/Vegetables/VegetableBuyingGuide.htm"
+    "source": "http://whatscookingamerica.net/Vegetables/VegetableBuyingGuide.htm",
+    "icon": ""
   },
   {
     "title": "Cherries",
@@ -190,31 +206,34 @@
           "months": []
         }
     },
-    "source": "http://whatscookingamerica.net/Vegetables/VegetableBuyingGuide.htm"
+    "source": "http://whatscookingamerica.net/Vegetables/VegetableBuyingGuide.htm",
+    "icon": "icon-corn"
   },
   {
-    "title": "Collards",
+    "title": "Collard Greens",
     "type": "vegetable",
     "image": "apricot.jpg",
-     "description": "",
+     "description": "Look for good color in the leaf or stem. Rainbow chard should be deep red, yellow, or dark green. Kale and collard greens should be dark green; mustard greens should be lighter. Softer leaves taste better; if they feel stiff, they’ll be tough.",
     "locations": {
         "nyc": {
           "months": [7,8,9]
         }
     },
-    "source": ""
+    "source": "http://www.washingtonian.com/articles/food-dining/how-to-tell-when-produce-is-ripe",
+    "icon": ""
   },
     {
     "title": "Cucumbers",
     "type": "vegetable",
     "image": "apricot.jpg",
-     "description": "",
+     "description": "Feel the cucumber. It should feel firm and smooth. Soft, mushy or lumpy cucumbers have begun to decay and won't taste good.",
     "locations": {
         "nyc": {
           "months": [6,7]
         }
     },
-    "source": "http://localfoods.about.com/od/searchbyregion/a/nyseasons.htm"
+    "source": "http://www.ehow.com/how_8217453_tell-cucumber-gone-bad.html",
+    "icon": ""
   },
     {
     "title": "Eggplant",
@@ -226,7 +245,8 @@
           "months": [6,7,8]
         }
     },
-    "source": "http://whatscookingamerica.net/Vegetables/VegetableBuyingGuide.htm"
+    "source": "http://whatscookingamerica.net/Vegetables/VegetableBuyingGuide.htm",
+    "icon": ""
   },
   {
     "title": "Grapes",
@@ -238,7 +258,8 @@
           "months": [8]
         }
     },
-    "source": ""
+    "source": "",
+    "icon": "icon-grapes"
   },
   {
     "title": "Kale",
@@ -250,7 +271,8 @@
           "months": []
         }
     },
-    "source": ""
+    "source": "",
+    "icon": ""
   },
   {
     "title": "Lima Beans",
@@ -262,7 +284,8 @@
           "months": [6,7]
         }
     },
-    "source": "http://localfoods.about.com/od/searchbyregion/a/nyseasons.htm"
+    "source": "http://localfoods.about.com/od/searchbyregion/a/nyseasons.htm",
+    "icon": ""
   },
   {
     "title": "Mushrooms",
@@ -274,31 +297,34 @@
           "months": []
         }
     },
-    "source": "http://whatscookingamerica.net/Vegetables/VegetableBuyingGuide.htm"
+    "source": "http://whatscookingamerica.net/Vegetables/VegetableBuyingGuide.htm",
+    "icon": "icon-mushrooms"
   },
   {
     "title": "Nectarines",
     "type": "fruit",
     "image": "apple.jpg",
-    "description": "",
+    "description": "Smell peaches and nectarines before you buy them. If they don't smell sweet and aromatic, they probably won't taste sweet and aromatic. The red blush of a peach or nectarine doesn't tell you if the fruit is ripe. Look at the background color. It should be uniform, either golden or pale cream, with absolutely no green blush or tinge.",
     "locations": {
         "nyc": {
           "months": [6,7,8]
         }
     },
-    "source": ""
+    "source": "http://www.weightwatchers.com/util/art/index_art.aspx?tabnum=1&art_id=112421&sc=3021",
+    "icon": ""
   },
   {
     "title": "Okra",
     "type": "vegetable",
     "image": "apricot.jpg",
-     "description": "",
+     "description": "Hold the okra in your hand — your hand looks sort of like you’re giving a thumbs up. Put the tip of your thumb to the tip of the okra. Push lightly. If it breaks cleanly, the okra’s good to eat. If it’s tough, it’s already too big.",
     "locations": {
         "nyc": {
           "months": [7,8]
         }
     },
-    "source": ""
+    "source": "http://hipsterhousewife.com/post/9995569728/how-to-tell-if-okra-and-green-beans-are-ripe",
+    "icon": ""
   },
     {
     "title": "Onions",
@@ -310,31 +336,35 @@
           "months": [5,6]
         }
     },
-    "source": "http://whatscookingamerica.net/Vegetables/VegetableBuyingGuide.htm"
+    "source": "http://whatscookingamerica.net/Vegetables/VegetableBuyingGuide.htm",
+    "icon": "icon-onions"
   },
   {
     "title": "Peaches",
     "type": "fruit",
     "image": "apple.jpg",
-    "description": "",
+    "description": "Unless you like your peaches very firm, pick your peaches with just a little 'give' when gently pressed. Peaches at this stage are great for eating, freezing, and baking. Peaches won't ripen very much after picking!",
     "locations": {
         "nyc": {
           "months": [6,7,8]
         }
     },
-    "source": ""
+    "source": "http://www.pickyourown.org/peachpickingtips.htm",
+    "icon": "icon-peaches"
   },
   {
     "title": "Pears",
     "type": "fruit",
     "image": "apple.jpg",
-    "description": "",
+    "description": "If the area around the stem of a pear gives a little with a gentle squeeze, it’s good to go.",
     "locations": {
         "nyc": {
           "months": [7]
         }
     },
-    "source": ""
+    "source": "http://blog.foodnetwork.com/healthyeats/2011/10/14/how-can-you-tell-if-a-pear-is-ripe/",
+    "icon": "icon-pears",
+    "iconSource": "Pear designed by Michael Rowe from The Noun Project"
   },
     {
     "title": "Peas",
@@ -346,7 +376,8 @@
           "months": [5]
         }
     },
-    "source": ""
+    "source": "",
+    "icon": ""
   },
     {
     "title": "Peppers",
@@ -358,7 +389,9 @@
           "months": [6,7,8,9]
         }
     },
-    "source": "http://whatscookingamerica.net/Vegetables/VegetableBuyingGuide.htm"
+    "source": "http://whatscookingamerica.net/Vegetables/VegetableBuyingGuide.htm",
+    "icon": "icon-peppers",
+    "iconSource": "Pepper designed by Julia Soderberg from The Noun Project"
   },
   {
     "title": "Potatoes",
@@ -370,7 +403,8 @@
           "months": [6,7,8]
         }
     },
-    "source": "http://whatscookingamerica.net/Vegetables/VegetableBuyingGuide.htm"
+    "source": "http://whatscookingamerica.net/Vegetables/VegetableBuyingGuide.htm",
+    "icon": ""
   },
     {
     "title": "Pumpkins",
@@ -382,7 +416,8 @@
           "months": [9]
         }
     },
-    "source": ""
+    "source": "",
+    "icon": "icon-pumpkins"
   },
   {
     "title": "Raspberries",
@@ -394,19 +429,8 @@
           "months": [6]
         }
     },
-    "source": ""
-  },
-  {
-    "title": "Raspberries (Fall and everbearing)",
-    "type": "fruit",
-    "image": "apple.jpg",
-    "description": "",
-    "locations": {
-        "nyc": {
-          "months": [7,8]
-        }
-    },
-    "source": ""
+    "source": "",
+    "icon": "icon-raspberries"
   },
   {
     "title": "Rhubarb",
@@ -418,7 +442,8 @@
           "months": [5,6]
         }
     },
-    "source": ""
+    "source": "",
+    "icon": ""
   },
   {
     "title": "Snap Beans",
@@ -430,7 +455,8 @@
           "months": [5,6]
         }
     },
-    "source": ""
+    "source": "",
+    "icon": ""
   },
   {
     "title": "Squash",
@@ -442,7 +468,8 @@
           "months": [5,6,7,8]
         }
     },
-    "source": "http://localfoods.about.com/od/searchbyregion/a/nyseasons.htm"
+    "source": "http://localfoods.about.com/od/searchbyregion/a/nyseasons.htm",
+    "icon": ""
   },
   {
     "title": "Spinach",
@@ -454,7 +481,8 @@
           "months": [4,5]
         }
     },
-    "source": "http://localfoods.about.com/od/searchbyregion/a/nyseasons.htm"
+    "source": "http://localfoods.about.com/od/searchbyregion/a/nyseasons.htm",
+    "icon": "icon-spinach"
   },
   {
     "title": "Strawberries",
@@ -466,7 +494,8 @@
           "months": [5]
         }
     },
-    "source": ""
+    "source": "",
+    "icon": "icon-strawberries"
   },
   {
     "title": "Sweet Potatoes",
@@ -478,19 +507,21 @@
           "months": []
         }
     },
-    "source": "http://whatscookingamerica.net/Vegetables/VegetableBuyingGuide.htm"
+    "source": "http://whatscookingamerica.net/Vegetables/VegetableBuyingGuide.htm",
+    "icon": ""
   },
   {
     "title": "Sweet Corn",
     "type": "vegetable",
     "image": "apricot.jpg",
-     "description": "",
+     "description": "You know that sweet corn is almost ready for the cooking pot when the ears look plump and the exposed part of the silk, at the top of each ear, is dry and dark brown. To determine the exact ripeness of an ear, make a vertical slit in the husk near the top of an ear and use your thumbnail to puncture a kernel. The corn is at peak sweetness when the liquid in the kernels is neither watery nor opaque, but translucent. ",
     "locations": {
         "nyc": {
           "months": [7,8]
         }
     },
-    "source": ""
+    "source": "http://www.helpfulgardener.com/forum/viewtopic.php?t=2844",
+    "icon": ""
   },
   {
     "title": "Tomatoes",
@@ -502,7 +533,8 @@
           "months": [5,6,7,8]
         }
     },
-    "source": "http://whatscookingamerica.net/Vegetables/VegetableBuyingGuide.htm"
+    "source": "http://whatscookingamerica.net/Vegetables/VegetableBuyingGuide.htm",
+    "icon": "icon-tomatoes"
   }
 ]
 }

@@ -53,13 +53,13 @@ $(window).load(function(){
   // seasonaly.pullFood();
   seasonaly.whatDay();
   // seasonaly.moreInfo();
-  seasonaly.explain();
+  // seasonaly.explain();
 });
 
 function moreInfo() {
   $('#food-list .more-info').hide();
-  $("#food-list li a").on('click', function(e) {
-    $('#food-list .more-info').slideUp('fast');
+  $("#food-list li").on('click', function(e) {
+    // $('#food-list .more-info').slideUp('fast');
     $(this).find('.more-info').slideToggle('fast');
     e.preventDefault();
     return false;
@@ -68,4 +68,13 @@ function moreInfo() {
 
 function hideRotten() {
 
+}
+
+function packery() {
+  var container = document.querySelector('#food-list');
+  var pckry = new Packery( container, {
+    // options
+    itemSelector: '.li a',
+    gutter: 10
+  });
 }

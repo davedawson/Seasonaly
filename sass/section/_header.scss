@@ -1,7 +1,7 @@
 .header {
 	padding: 5px 0 0;
-	background: darken($color-pink, 30%);
-	border-bottom: darken($color-pink, 30%);
+	background: darken($color-brown, 10%);
+	// border-bottom: darken($color-brown, 30%);
   a {
     color: $color-white;
     text-decoration: none;
@@ -32,20 +32,13 @@
       display: none;
     }
   }
-  .explanation {
-    text-align: center;
-    margin: 20px 5%;
-    p {
-      margin: 0;
-    }
-  }
 }
 .today {
 	text-align: center;
 	font-size: 28px;
 	padding: 10px 0;
 	font-weight: 600;
-  background: darken($color-pink, 40%);
+  background: $color-brown;
 	p {
 		margin: 0;
     font-size: 14px;

@@ -1,36 +1,105 @@
+html {
+  height: 100%;
+}
 body {
-	background-color: $color-pink;
+  height: 100%;
+	background-color: $color-tan;
 	color: $color-white;
 	font-family: 'Whitney A', 'Whitney B';
 }
 
 #food-list {
 	padding: 0;
+  height: auto !important;
 	li {
 		list-style-type: none;
+    margin: 0;
+    padding: 0;
+    border-top: 2px solid transparentize($color-white, 0.2);
+    @include respond-to(wide-screens) {
+        float: left;
+        margin: 2%;
+        width: 29%;
+      }
+    &.vegetable {
+      background-color: $color-green;
+      @include respond-to(wide-screens) {
+        border-top: 3px solid $color-green;
+        background: $color-light-brown;
+      }
+      .more-info {
+        background: darken($color-green, 8%);
+        border-top: 2px solid darken($color-green, 10%);
+      }
+    }
+    &.fruit {
+      background-color: $color-pink;
+      @include respond-to(wide-screens) {
+        border-top: 3px solid $color-pink;
+        background: $color-light-brown;
+      }
+      .more-info {
+        background: darken($color-pink, 8%);
+        border-top: 2px solid darken($color-pink, 10%);
+      }
+    }
 		a {
       color: $color-white;
       text-decoration: none;
-      padding: 20px 5%;
+      margin: 0;
       width: 100%;
       display: block;
-      border-top: 2px solid transparentize($color-white, 0.2);
       font-weight: 600;
       box-sizing: border-box;
-      &.vegetable {
-        background-color: $color-green;
+      @include respond-to(wide-screens) {
+        color: $color-dark-brown;
       }
-      &.fruit {
-        background-color: $color-pink;
-      }
+
+
+    }
+    h2 {
+      margin: 20px 5%;
+      // float: left;
+    }
+    .right.icon {
+      float: right;
+      margin: 20px 5%;
+      font-size: 40px;
     }
 		.more-info {
-      margin-top: 10px;
+      padding: 20px 5%;
+      .icon {
+        text-align: center;
+        margin: 0 auto 10px;
+        font-size: 160px;
+        display: block;
+      }
+      //margin-top: 10px;
+      strong {
+        display: block;
+      }
 			p {
 				font-weight: 400;
-				font-size: 16px;
-				margin: 0;
+				font-size: 18px;
+        line-height: 22px;
+				margin: 10px 0 15px;
+        word-wrap: break-word;
 			}
+      .source {
+        font-style: italic;
+        font-size: 13px;
+        line-height: 16px;
+        color: transparentize($color-white, 0.4)
+        strong {
+          color: $color-white;
+        }
+      }
 		}
 	}
+}
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 5%;
+  position: relative;
 }

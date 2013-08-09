@@ -4,11 +4,14 @@ $contentWidth: $columnWidth * $columns;
 $bodyFontSize: 16px;
 
 // colors
-$color-pink: #ff5757;
-$color-green: #4da756;
+$color-pink: #ce767f;
+$color-green: #a4b55d;
 $color-white: #fff;
 $color-black: #000;
-
+$color-tan: #edece0;
+$color-light-brown: #c5c4b2;
+$color-dark-brown: #5e5c43;
+$color-brown: #755a31;
 
 @mixin border-radius($radius) {
   -webkit-border-radius: $radius;

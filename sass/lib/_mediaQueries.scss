@@ -6,19 +6,15 @@ $mq-desktop              : 1025px;
 $mq-desktop-max          : 1382px;
 
 @mixin respond-to($media) {
-
-  @if $media == desktop {
+  @if $media == wide-screens {
     @media only screen and (min-width: $mq-mobile-landscape + 1) { @content; }
   }
-
-  @else if $media == tablet {
-    @media only screen and (min-width: $mq-mobile-landscape + 1) and (max-width: $mq-desktop) { @content; }
+  @else if $media == medium-screens {
+    @media only screen and (min-width: $mq-mobile-landscape + 1) and (max-width: $mq-desktop - 1) { @content; }
   }
-
-  @else if $media == mobile {
+  @else if $media == handhelds {
     @media only screen and (max-width: $mq-mobile-landscape) { @content; }
   }
-
   @else if $media == retina {
     @media  (min--moz-device-pixel-ratio: 1.3),
             (-o-min-device-pixel-ratio: 2.6/2),
@@ -27,9 +23,5 @@ $mq-desktop-max          : 1382px;
             (min-resolution: 1.3dppx) {
       @content;
     }
-  }
-
-  @else {
-    @media only screen and (max-width: $media * 1px) { @content; }
   }
 }

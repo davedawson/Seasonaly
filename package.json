@@ -1,0 +1,18 @@
+{
+  "name": "whatsinseasontoday",
+  "version": "0.1.0",
+  "description": "ERROR: No README data found!",
+  "main": "Gruntfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/davedawson/Seasonaly.git"
+  },
+  "author": "Dave Dawson",
+  "license": "BSD",
+  "bugs": {
+    "url": "https://github.com/davedawson/Seasonaly/issues"
+  }
+}
