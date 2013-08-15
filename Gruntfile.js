@@ -62,4 +62,6 @@ module.exports = function(grunt) {
   });
   grunt.registerTask('default', 'grunticon');
 
+  grunt.loadNpmTasks('grunt-contrib-imagemin');
+
 };

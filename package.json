@@ -14,5 +14,8 @@
   "license": "BSD",
   "bugs": {
     "url": "https://github.com/davedawson/Seasonaly/issues"
+  },
+  "devDependencies": {
+    "grunt-contrib-imagemin": "~0.1.4"
   }
 }
