@@ -48,12 +48,15 @@
         <!--[if lt IE 7]>
             <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
         <![endif]-->
-      <section class="header">
-        <h1><a href="/">What's in Season Today</a></h1>
-        <!-- <a href="#" class="explain"><span>What is this</span>&darr;</a> -->
+      <section class="header clearfix">
+        <div class="season">
+          <p>Summer</p>
+        </div>
 
-        <div class="today">
-          <p><b>Summer:</b> <em></em>, <strong></strong>, in <span>the NYC area</span></p>
+        <h1 class="logo"><a href="/" class="icon-icon">What's in Season Today</a></h1>
+
+        <div class="location">
+          <p>NYC</p>
         </div>
       </section>
 

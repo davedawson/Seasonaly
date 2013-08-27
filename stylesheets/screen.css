@@ -538,7 +538,7 @@ body {
 /* line 1, ../sass/section/_header.scss */
 .header {
   padding: 5px 0 0;
-  background: #513e22;
+  background: #1b1a17;
 }
 /* line 5, ../sass/section/_header.scss */
 .header a {
@@ -549,14 +549,7 @@ body {
 .header p a {
   text-decoration: underline;
 }
-/* line 12, ../sass/section/_header.scss */
-.header h1 {
-  font-size: 14px;
-  letter-spacing: 0.33em;
-  text-transform: uppercase;
-  text-align: center;
-}
-/* line 18, ../sass/section/_header.scss */
+/* line 14, ../sass/section/_header.scss */
 .header .explain {
   position: absolute;
   right: 5%;
@@ -573,27 +566,61 @@ body {
   -moz-border-radius: 22px;
   border-radius: 22px;
 }
-/* line 31, ../sass/section/_header.scss */
+/* line 27, ../sass/section/_header.scss */
 .header .explain span {
   display: none;
 }
+/* line 31, ../sass/section/_header.scss */
+.header .logo {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 35px;
+  text-indent: -99999px;
+  margin: 0;
+}
+/* line 38, ../sass/section/_header.scss */
+.header .logo a {
+  display: block;
+  margin: 8px auto;
+  width: 100%;
+  background-size: 35px;
+  background-position: center;
+}
+/* line 47, ../sass/section/_header.scss */
+.header .season, .header .location {
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 0.25);
+}
+/* line 53, ../sass/section/_header.scss */
+.header .season {
+  float: left;
+  margin-left: 5%;
+}
+/* line 57, ../sass/section/_header.scss */
+.header .location {
+  float: right;
+  margin-right: 5%;
+}
 
-/* line 36, ../sass/section/_header.scss */
+/* line 62, ../sass/section/_header.scss */
 .today {
   text-align: center;
   font-size: 28px;
   padding: 10px 0;
   font-weight: 600;
-  background: #755a31;
+  background: #1b1a17;
 }
-/* line 42, ../sass/section/_header.scss */
+/* line 68, ../sass/section/_header.scss */
 .today p {
   margin: 0;
   font-size: 14px;
   color: rgba(255, 255, 255, 0.8);
   font-weight: 400;
 }
-/* line 48, ../sass/section/_header.scss */
+/* line 74, ../sass/section/_header.scss */
 .today em, .today strong {
   display: inline;
   font-weight: normal;
@@ -614,7 +641,7 @@ body {
 /* line 11, ../sass/section/_footer.scss */
 .explanation {
   clear: both;
-  background: #513e22;
+  background: black;
   text-align: center;
   padding: 30px 10%;
 }
